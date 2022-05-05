@@ -43,8 +43,8 @@ def initialize_voxels():
     knight_head_pos = knight_pos + yaxis * 10
     build_cylinder_z(knight_head_pos - xaxis * 10 + yaxis * 5 - zaxis * 6, 5, 12, 1, white, 1)
     build_cylinder_z(knight_head_pos - xaxis * 10 - yaxis * 5 - zaxis * 6, 5, 12, 1, white, 1)
-    build_cuboid(knight_head_pos - xaxis * 10 - yaxis * 10 - zaxis * 6, 20, 21, 12, 1, white)
-    build_cuboid(knight_head_pos - xaxis * 15 - yaxis * 5 - zaxis * 6, 30, 11, 12, 1, white)
+    build_cuboid(knight_head_pos - xaxis * 10 - yaxis * 10 - zaxis * 6, 21, 21, 12, 1, white)
+    build_cuboid(knight_head_pos - xaxis * 15 - yaxis * 5 - zaxis * 6, 31, 11, 12, 1, white)
 
     build_cylinder_z(knight_head_pos - xaxis * 8 - yaxis * 2 + zaxis * 4, 4, 2, 1, black, 1)
     build_cylinder_z(knight_head_pos - xaxis * 8 - yaxis * 4 + zaxis * 4, 4, 2, 1, black, 1)
